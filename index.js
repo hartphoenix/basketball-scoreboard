@@ -36,4 +36,5 @@ function newgame() {
     guestscore = 0
     document.getElementById("homescore").textContent = homescore
     document.getElementById("guestscore").textContent = guestscore
+    console.log("New Game")
 }
